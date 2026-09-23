@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int x;
+    int y;
+
+    scanf("%d %d",&x,&y);
+
+    printf("SUM: %d\n",x+y);
+    printf("Difference: %d\n",x-y);
+    printf("Product: %d\n",x*y);
+    printf("Quotient: %d\n",x/y);
+    return 0;
+}
