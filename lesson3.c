@@ -9,7 +9,7 @@ int main(void)
     scanf("%d %d", &num1, &num2);
 
     printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &op); 
+    scanf(" %c", &op);
 
     if (op == '+')
         printf("Result = %d\n", num1 + num2);
