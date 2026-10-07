@@ -1,7 +1,26 @@
+#include <stdio.h>
 
+int main(void)
+{
+    int num1, num2;
+    char op;
 
-#include<stdio.h>
-int main(void){
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
 
+    printf("Enter operator (+, -, *, /): ");
+    scanf(" %c", &op); // Обратите внимание на пробел перед %c
+
+    if (op == '+')
+        printf("Result = %d\n", num1 + num2);
+    else if (op == '-')
+        printf("Result = %d\n", num1 - num2);
+    else if (op == '*')
+        printf("Result = %d\n", num1 * num2);
+    else if (op == '/')
+        printf("Result = %d\n", num1 / num2);
+    else
+        printf("Invalid operator\n");
+
+    return 0;
 }
-
